@@ -107,9 +107,10 @@ a {
     /* Hero */
 
     .hero {
-  background: linear-gradient(180deg, #e8fff0, #f8fffb);
+  background-image: url(./assets/tg.png);
+  /* background: linear-gradient(180deg, #e8fff0, #f8fffb); */
   padding: 36px 16px 40px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px ;
 }
 
 .hero-inner {
@@ -125,7 +126,7 @@ a {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: radial-gradient(circle, #ffffff, #e7f6ec);
+  /* background: radial-gradient(circle, #ffffff, #e7f6ec); */
 }
 
 .hero h1 {
