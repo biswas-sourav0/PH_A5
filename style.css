@@ -122,21 +122,25 @@ a {
 .hero .crest {
   width: 72px;
   height: 72px;
-  margin: 0 auto 10px;
-  border-radius: 50%;
+  margin: 10px auto 10px;
+  /* margin-bottom: 5px; */
+  border-radius:;
   display: grid;
   place-items: center;
   /* background: radial-gradient(circle, #ffffff, #e7f6ec); */
 }
 
 .hero h1 {
-  margin: 6px 0 8px;
+  /* margin: 6px 0 8px; */
+  margin-top: 35px;
+  margin-bottom: 5px;
   font-size: 32px;
+  color: #ffffff ;
 }
 
 .hero p {
   margin: 0;
-  color: #0b7a39;
+  color: #ffffff;
   font-weight: 600;
 }
 
